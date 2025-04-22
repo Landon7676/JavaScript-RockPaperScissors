@@ -13,7 +13,7 @@ function getComputerChoice() {
     console.log(answer);
     return answer;
 }
-
+ 
 function getHumanChoice() {
     let answer = prompt("What's your choice?");
     console.log(answer.toUpperCase());
